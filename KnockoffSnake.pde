@@ -7,7 +7,7 @@ object[] o = new object[255];
 int level;
 
 void setup() {
-  fullScreen();
+  size(1000, 750);
   frameRate(30);
   startgame = false;
   paused = false;
